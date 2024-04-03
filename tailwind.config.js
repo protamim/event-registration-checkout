@@ -29,6 +29,9 @@ module.exports = {
         "green": "#128100",
         "body-bg": "#f6f6f6",
       },
+      boxShadow: {
+        tiny: '0px 0px 4px 0px rgba(129, 129, 129, 0.50)'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
