@@ -1,8 +1,8 @@
 import Link from "next/link";
-const IconButton = ({ as, icon, text, path, iconClass, textClass }) => {
+const IconButton = ({ as, icon, text, path, iconClass, textClass, onClick }) => {
   return (
     <>
-      <button type={as}>
+      <button type={as} onClick={onClick}>
         <Link
           href={path || '#'}
           className="flex items-center gap-x-2 border border-black py-3 px-5 rounded-full transition-all duration-300 ease-in-out hover:bg-2nd-yellow hover:border-2nd-yellow"

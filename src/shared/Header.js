@@ -53,7 +53,7 @@ const Header = () => {
 
             {/* Navigation Menu for small devices */}
             <div
-              className={`absolute top-[130%] bg-1s-nv-blue w-full rounded-xl pt-6 pb-4 pl-5 transition-all ease-in-out duration-300 drop-shadow-2xl shadow-1s-nv-blue lg:hidden ${
+              className={`absolute top-[130%] bg-1s-nv-blue w-full rounded-xl pt-6 pb-4 pl-5 transition-all ease-in-out duration-300 shadow-tiny z-[999] lg:hidden ${
                 toggle ? "left-0" : "-left-[112%]"
               }`}
             >
