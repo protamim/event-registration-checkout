@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1. What is your typical learning curve for acquiring new technology?
 
-## Getting Started
+Answer: I typically rely on the original documentation when learning new technology. I find that hands-on learning, where I dive into practical tasks and experiments, is highly effective for quickly grasping new concepts and skills.
 
-First, run the development server:
+2. What are your expectations from us during the four-months internship
+period?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Answer: 20000 BDT per months
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. How much time do you typically require to design a single screen?
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Answer: I leverage min-width breakpoints, which greatly facilitates designing for various screens effortlessly. Beginning with small devices, I adapt the layout iteratively based on breakpoints.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Outline five topics that you anticipate will undergo changes in Tailwind
+CSS v4.0
 
-## Learn More
+Answer: 
+- <bold>A New Engine, Built for Speed:</bold> Utilizes Rust for enhanced performance.
 
-To learn more about Next.js, take a look at the following resources:
+- <bold>Unified Toolchain:</bold> Integrated Lightning CSS for easier setup.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- <bold>Designed for the Modern Web:</bold> Supports features like native cascade layers and container queries.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- <bold>Composable Variants:</bold> Allows more flexibility in styling.
+Zero-configuration Content Detection: Automates style application.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- <bold>CSS-first Configuration:</bold> Encourages CSS over JavaScript for configurations.
